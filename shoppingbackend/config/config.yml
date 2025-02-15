@@ -1,0 +1,9 @@
+App:
+  Name: shoppingmall
+  Port: :8080
+
+Database:
+   Dsn : root:123456@tcp(127.0.0.1:3306)/shopping?charset=utf8mb4&parseTime=True&loc=Local
+   maxIdleConns: 10
+   maxOpenConns: 100
+   maxlifetime: 300
